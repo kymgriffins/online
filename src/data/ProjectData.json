@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "show": true,
+    "title": "Example project",
+    "tags": [
+      "Tag 1",
+      "Tag 2",
+      "Tag 3"
+    ],
+    "description": "The description of your project goes here...",
+    "repoLink": "https://benoldham.dev/",
+    "demoLink": "https://benoldham.dev/",
+    "imgPath": "/images/placeholder.jpg",
+    "tabs": {
+      "screenshots": [
+        {
+          "img": "/images/placeholder.jpg",
+          "title": "Example page",
+          "description": "with a description of what that page does."
+        },
+        {
+          "img": "/images/placeholder.jpg",
+          "title": "Second example",
+          "description": "with some more features."
+        }
+      ]
+    }
+  }
+]
