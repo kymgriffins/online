@@ -2,6 +2,8 @@
 
 My React-based portfolio site showcasing a collection of my projects, articles and contact links.
 
+View the live deployment at [www.benoldham.dev](https://www.benoldham.dev/)
+
 
 ## Tech stack
 
