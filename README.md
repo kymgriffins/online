@@ -2,7 +2,9 @@
 
 My React-based portfolio site showcasing a collection of my projects, articles and contact links.
 
-View the live deployment at [www.benoldham.dev](https://www.benoldham.dev/)
+View the live deployment at [www.benoldham.dev](https://www.benoldham.dev/).
+
+This is a template version (with my content and images removed) to make it easier to customise.
 
 
 ## Tech stack
