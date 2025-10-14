@@ -17,13 +17,13 @@
     "tabs": {
       "screenshots": [
         {
-          "img": "https://i.pinimg.com/1200x/84/e4/12/84e41281ac6bab0ced9742d48753cd22.jpg",
+          "img": "https://cdn.dribbble.com/userupload/14432751/file/original-2c5c8bd21127132b1efa9820bef164ba.png?resize=1024x768&vertical=center",
           "title": "Dashboard Overview",
           "description": "Centralized dashboard visualizing hospital KPIs, maintenance tasks, and live patient feedback."
         },
         {
-          "img": "https://i.pinimg.com/1200x/b6/1c/4f/b61c4f4361884f0c2372be5218fd976c.jpg",
-          "title": "Maintenance Module",
+          "img": "https://cdn.dribbble.com/userupload/17284751/file/original-2f74de279fc8748355e0efa661fa52db.png?resize=1024x768&vertical=center",
+          "title": "Genetic Journey",
           "description": "Tracks repair and logistics requests across hospital facilities for faster resolution."
         }
       ]
@@ -40,18 +40,23 @@
       "Project Tracking"
     ],
     "description": "A responsive web platform built for construction companies to manage projects, workers, and analytics dashboards. Focused on simplifying data collection and improving site collaboration.",
-    "repoLink": "https://github.com/kymgriffins/construstease",
+    "repoLink": "https://outlinedesignsltd.vercel.app/",
     "demoLink": "https://construstease.vercel.app/",
-    "imgPath": "https://i.pinimg.com/736x/1e/0b/a6/1e0ba6dd3b1569a97d6de7c049bcb6fb.jpg",
+    "imgPath": "https://cdn.dribbble.com/userupload/44660455/file/957a28c01646142e2fc67e72138314c1.png?resize=1024x768&vertical=center",
     "tabs": {
       "screenshots": [
         {
-          "img": "/images/construstease-dashboard.jpg",
+          "img": "https://cdn.dribbble.com/userupload/17843360/file/original-4620280d6d8c56f66ec2712e0794a88f.png?resize=1024x768&vertical=center",
           "title": "Project Dashboard",
           "description": "Tracks live project progress and visualizes materials usage through interactive charts."
         },
         {
-          "img": "/images/construstease-tasks.jpg",
+          "img": "https://cdn.dribbble.com/userupload/19004957/file/original-b2776b72ca60c12709ac4dbe36f2d8f8.png?resize=1024x768&vertical=center",
+          "title": "Task Management",
+          "description": "Collaborative task board for engineers, supervisors, and contractors."
+        },
+        {
+          "img": "https://cdn.dribbble.com/userupload/43183895/file/original-61af816515bc5a95b717b6830a23eb47.png?resize=1024x768&vertical=center",
           "title": "Task Management",
           "description": "Collaborative task board for engineers, supervisors, and contractors."
         }
@@ -76,12 +81,12 @@
     "tabs": {
       "screenshots": [
         {
-          "img": "https://i.pinimg.com/1200x/54/62/2e/54622efaf53b1c29b92bfbe778debe0c.jpg",
+          "img": "https://cdn.dribbble.com/userupload/18532086/file/original-bcaf125d189b680400eac8d34252e068.png?resize=1024x768&vertical=center",
           "title": "Data Dashboard",
           "description": "Displays machine learning predictions and performance insights in real time."
         },
         {
-          "img": "https://i.pinimg.com/736x/11/bc/84/11bc844b5ad4c514299339e263a13a86.jpg",
+          "img": "https://cdn.dribbble.com/userupload/44625124/file/52738569e46e84731dd60bd4f57f44f1.png?resize=1024x768&vertical=center",
           "title": "ETL Workflow",
           "description": "Automated ETL and model deployment pipeline for experimental datasets."
         }
