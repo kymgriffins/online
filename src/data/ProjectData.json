@@ -2,27 +2,88 @@
   {
     "id": 1,
     "show": true,
-    "title": "Example project",
+    "title": "MediCore360 – Hospital Management System",
     "tags": [
-      "Tag 1",
-      "Tag 2",
-      "Tag 3"
+      "Full-Stack",
+      "Python",
+      "React",
+      "Automation",
+      "Healthcare"
     ],
-    "description": "The description of your project goes here...",
-    "repoLink": "https://benoldham.dev/",
-    "demoLink": "https://benoldham.dev/",
-    "imgPath": "/images/placeholder.jpg",
+    "description": "An integrated hospital management platform automating feedback, fleet, laundry, and repair workflows. Designed to streamline operational visibility, improve resource tracking, and enhance patient experience across multiple departments.",
+    "repoLink": "https://github.com/kymgriffins/medicore360",
+    "demoLink": "https://medicore360-demo.vercel.app/",
+    "imgPath": "https://i.pinimg.com/1200x/7f/8d/11/7f8d1157b6f4820fc20eb054cd050b1c.jpg",
     "tabs": {
       "screenshots": [
         {
-          "img": "/images/placeholder.jpg",
-          "title": "Example page",
-          "description": "with a description of what that page does."
+          "img": "https://i.pinimg.com/1200x/84/e4/12/84e41281ac6bab0ced9742d48753cd22.jpg",
+          "title": "Dashboard Overview",
+          "description": "Centralized dashboard visualizing hospital KPIs, maintenance tasks, and live patient feedback."
         },
         {
-          "img": "/images/placeholder.jpg",
-          "title": "Second example",
-          "description": "with some more features."
+          "img": "https://i.pinimg.com/1200x/b6/1c/4f/b61c4f4361884f0c2372be5218fd976c.jpg",
+          "title": "Maintenance Module",
+          "description": "Tracks repair and logistics requests across hospital facilities for faster resolution."
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "show": true,
+    "title": "ConstructEase – Construction Management Suite",
+    "tags": [
+      "WebApp",
+      "JavaScript",
+      "Data Visualization",
+      "Project Tracking"
+    ],
+    "description": "A responsive web platform built for construction companies to manage projects, workers, and analytics dashboards. Focused on simplifying data collection and improving site collaboration.",
+    "repoLink": "https://github.com/kymgriffins/construstease",
+    "demoLink": "https://construstease.vercel.app/",
+    "imgPath": "https://i.pinimg.com/736x/1e/0b/a6/1e0ba6dd3b1569a97d6de7c049bcb6fb.jpg",
+    "tabs": {
+      "screenshots": [
+        {
+          "img": "/images/construstease-dashboard.jpg",
+          "title": "Project Dashboard",
+          "description": "Tracks live project progress and visualizes materials usage through interactive charts."
+        },
+        {
+          "img": "/images/construstease-tasks.jpg",
+          "title": "Task Management",
+          "description": "Collaborative task board for engineers, supervisors, and contractors."
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "show": true,
+    "title": "InsightFlow – Data Science & Research Platform",
+    "tags": [
+      "Data Science",
+      "Machine Learning",
+      "Python",
+      "ETL",
+      "Analytics"
+    ],
+    "description": "A research and analytics system for startups. Built data pipelines, ETL automation, and ML-driven insights dashboards. Designed to test hypotheses and visualize performance trends.",
+    "repoLink": "https://github.com/kymgriffins/insightflow",
+    "demoLink": "https://insightflow-ai.vercel.app/",
+    "imgPath": "https://i.pinimg.com/736x/0e/0b/db/0e0bdb3c1427cf728a5ea32cc893c05e.jpg",
+    "tabs": {
+      "screenshots": [
+        {
+          "img": "https://i.pinimg.com/1200x/54/62/2e/54622efaf53b1c29b92bfbe778debe0c.jpg",
+          "title": "Data Dashboard",
+          "description": "Displays machine learning predictions and performance insights in real time."
+        },
+        {
+          "img": "https://i.pinimg.com/736x/11/bc/84/11bc844b5ad4c514299339e263a13a86.jpg",
+          "title": "ETL Workflow",
+          "description": "Automated ETL and model deployment pipeline for experimental datasets."
         }
       ]
     }

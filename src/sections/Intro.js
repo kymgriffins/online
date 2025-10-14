@@ -12,15 +12,17 @@ function Intro() {
             <div className='intro'>
 
                 <TypingEffect className="mb-2" tag="h1" typingSpeed={100}>
-                    YOUR NAME
+                    Griffins Kimutai
                 </TypingEffect>
 
                 <TypingEffect className="text-secondary intro-subtitle mt-0" tag="h2" typingSpeed={50}>
-                    YOUR TITLE
+                    Information Technology Consultant & Algorithmic Trader
                 </TypingEffect>
 
                 <p className='subtitle text-secondary'>
-                    Write a short description about yourself
+                    Tech-savvy and versatile IT Consultant skilled in full-stack development, automation, and data-driven systems.
+                    Experienced in designing and deploying complete digital solutions — from web apps to intelligent backend infrastructure.
+                    Passionate about learning emerging technologies and solving complex problems through innovative, scalable software.
                 </p>
 
                 <SkillsSummary />

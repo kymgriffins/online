@@ -2,9 +2,33 @@
   {
     "id": 1,
     "show": true,
-    "title": "Example open-source project",
-    "description": "A brief description of the project here...",
-    "url": "https://www.benoldham.dev/",
-    "imgPath": "/images/placeholder.jpg"
+    "title": "MediCore360 – Hospital Management System",
+    "description": "A full-stack healthcare management solution integrating patient feedback, fleet, laundry, and maintenance modules. Developed with React and Python Flask to automate workflows and improve hospital efficiency.",
+    "url": "https://github.com/kymgriffins/medicore360",
+    "imgPath": "/images/medicore360.jpg"
+  },
+  {
+    "id": 2,
+    "show": true,
+    "title": "ConstructEase – Construction Management Platform",
+    "description": "A web-based application designed for construction teams to manage projects, workers, and analytics dashboards. Built with JavaScript, Node.js, and REST APIs for performance and scalability.",
+    "url": "https://github.com/kymgriffins/construstease",
+    "imgPath": "/images/construstease.jpg"
+  },
+  {
+    "id": 3,
+    "show": true,
+    "title": "InsightFlow – Data Research and Analytics System",
+    "description": "A startup-focused data science platform featuring automated ETL, visualization, and machine learning experiments. Developed using Python, Pandas, and scikit-learn.",
+    "url": "https://github.com/kymgriffins/insightflow",
+    "imgPath": "/images/insightflow.jpg"
+  },
+  {
+    "id": 4,
+    "show": true,
+    "title": "AutoSys – System Automation Toolkit",
+    "description": "A set of Python scripts and tools for automating server administration, deployment, and monitoring tasks across Linux environments.",
+    "url": "https://github.com/kymgriffins/autosys",
+    "imgPath": "/images/autosys.jpg"
   }
 ]

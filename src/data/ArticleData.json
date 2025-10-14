@@ -2,9 +2,9 @@
   {
     "id": 1,
     "show": true,
-    "title": "Example Article",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim justo vitae nisl gravida, vel pharetra orci eleifend. Vestibulum dignissim tellus justo, nec sodales urna mattis eget. Cras eu lacus ac est congue dapibus.",
-    "repoLink": "https://www.benoldham.dev/",
-    "imgPath": "/images/placeholder.jpg"
+    "title": "The Digital Gold Rush – The Hidden Empire Behind the Internet",
+    "description": "This article explores the unseen power players of the digital age—the companies building the tools that power the modern web. From Amazon Web Services providing the cloud 'land,' to GitHub as the code blueprint vault, Docker and Kubernetes managing digital shipping containers, and API toolmakers like Stripe and Twilio enabling interconnectivity, these toolmakers form the true infrastructure of our online world. It argues that in today’s tech boom, real wealth lies not in chasing the next app, but in creating the picks and shovels—the foundational technologies everyone else relies on.",
+    "repoLink": "https://youtu.be/ed_K_cJR3uM",
+    "imgPath": "https://i.pinimg.com/736x/cf/bf/04/cfbf04cf91cc4cb9394880b58c178d1e.jpg"
   }
 ]

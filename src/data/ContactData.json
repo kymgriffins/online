@@ -1,18 +1,18 @@
 {
     "Email": {
-        "url": "mailto:youremail@example.com",
+        "url": "mailto:griffinskimutai@gmail.com",
         "iconClassName": "bi bi-envelope-fill"
     },
     "LinkedIn": {
-        "url": "https://linkedin.com/in/your-linkedin",
+        "url": "https://linkedin.com/in/kimutaigriffins",
         "iconClassName": "bi bi-linkedin"
     },
     "GitHub": {
-        "url": "https://github.com/your-profile",
+        "url": "https://github.com/kymgriffins",
         "iconClassName": "bi bi-github"
     },
     "Medium": {
-        "url": "https://your-medium-profile",
+        "url": "https://medium.com/@griffinskimutai",
         "iconClassName": "bi bi-medium"
     }
 }
