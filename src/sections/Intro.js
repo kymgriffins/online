@@ -16,12 +16,15 @@ function Intro() {
                 </TypingEffect>
 
                 <TypingEffect className="text-secondary intro-subtitle mt-0" tag="h2" typingSpeed={50}>
-                    Information Technology Consultant & Algorithmic Trader
+                    Information Technology Consultant & Algorithmic Proprietary Trader
                 </TypingEffect>
 
                 <p className='subtitle text-secondary'>
-                    Tech-savvy and versatile IT Consultant with expertise in full-stack development, automation, and data-driven systems. Experienced in designing and deploying end-to-end digital solutions, from responsive web platforms to intelligent backend architectures. Brings hands-on exposure to financial markets, algorithmic trading, and data analytics, applying technical precision to volatile and fast-moving environments. Adept at transforming emerging technologies into scalable, resilient, and innovative systems. Committed to continuous learning, disciplined problem-solving, and delivering impactful software that thrives even under market pressure.
-                </p>
+                    IT Consultant with strong expertise in full-stack development, automation, and data-driven systems. Experienced in designing and deploying end-to-end digital solutions, ranging from responsive web platforms to intelligent backend architectures. Brings hands-on exposure to financial markets, algorithmic trading, and data analytics, applying technical precision within volatile and fast-moving trading environments.
+
+                    Proven track record as a proprietary trader, having successfully passed trading challenges and managed capital in live markets. Skilled at leveraging market insights, executing strategic trades, and managing risk efficiently. Adept at transforming emerging technologies into scalable, resilient, and innovative systems that deliver impactful software solutions thriving under market pressures.
+
+Committed to continuous learning, disciplined problem-solving, and bridging the gap between technology and finance to drive advanced trading automation and software innovation.                </p>
 
                 <SkillsSummary />
 

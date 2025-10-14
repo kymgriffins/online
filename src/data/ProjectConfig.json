@@ -2,6 +2,6 @@
     "displaySections": {
         "project": true,
         "articles": false,
-        "open_source": false
+        "open_source": true
     }
 }

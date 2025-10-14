@@ -2,33 +2,17 @@
   {
     "id": 1,
     "show": true,
-    "title": "MediCore360 – Hospital Management System",
-    "description": "A full-stack healthcare management solution integrating patient feedback, fleet, laundry, and maintenance modules. Developed with React and Python Flask to automate workflows and improve hospital efficiency.",
-    "url": "https://github.com/kymgriffins/medicore360",
-    "imgPath": "/images/medicore360.jpg"
+    "title": "Algorithmic Trading",
+    "description": "Technical expertise in developing and deploying algorithmic trading strategies focused on capturing liquidity and inefficiencies in futures markets using CME Group data. Skilled in using Python and automation tools to build high-performance, systematic trading systems that analyze order book dynamics, price anomalies, and volume imbalances, enabling timely and efficient trade execution.",
+    "url": "https://www.cmegroup.com/",
+    "imgPath": "https://liquidityfinder.com/_next/image?url=https%3A%2F%2Fucdn.liquidityfinder.com%2F8b08d17597d0fe09ee4d76913_CME%20GroupH.png&w=3840&q=75"
   },
   {
     "id": 2,
     "show": true,
-    "title": "ConstructEase – Construction Management Platform",
-    "description": "A web-based application designed for construction teams to manage projects, workers, and analytics dashboards. Built with JavaScript, Node.js, and REST APIs for performance and scalability.",
-    "url": "https://github.com/kymgriffins/construstease",
-    "imgPath": "/images/construstease.jpg"
-  },
-  {
-    "id": 3,
-    "show": true,
-    "title": "InsightFlow – Data Research and Analytics System",
-    "description": "A startup-focused data science platform featuring automated ETL, visualization, and machine learning experiments. Developed using Python, Pandas, and scikit-learn.",
-    "url": "https://github.com/kymgriffins/insightflow",
-    "imgPath": "/images/insightflow.jpg"
-  },
-  {
-    "id": 4,
-    "show": true,
-    "title": "AutoSys – System Automation Toolkit",
-    "description": "A set of Python scripts and tools for automating server administration, deployment, and monitoring tasks across Linux environments.",
-    "url": "https://github.com/kymgriffins/autosys",
-    "imgPath": "/images/autosys.jpg"
+    "title": "Proprietary Trading",
+    "description": "Experienced proprietary trader with a proven record of passing trading challenges and managing six-figure capital in live markets. Skilled in risk management, executing strategic trading plans, and leveraging market insights to maximize profitability across futures and equities trading environments.",
+    "url": "https://www.goatfundedtrader.com/",
+    "imgPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1wAxvoW21yB_qsco5Wxj_nvOoAvUbYqurlQ&s"
   }
 ]
