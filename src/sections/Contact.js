@@ -35,9 +35,9 @@ function Contact() {
 
                 <div className='col-sm-6 mt-2'>
                     <ContactLink
-                        link={ContactData.Medium.url}
-                        iconName={ContactData.Medium.iconClassName}
-                        text="Medium"
+                        link={ContactData.Whatsapp.url}
+                        iconName={ContactData.Whatsapp.iconClassName}
+                        text="Whatsapp"
                     />
                 </div>
 
