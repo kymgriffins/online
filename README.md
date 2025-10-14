@@ -36,3 +36,4 @@ This project is open-source licensed and you are welcome to clone the repo for y
 The only condition is that you must retain the copyright label (provided by `CopyrightLabel.js`) in it's original form and location, linked back to my portfolio.
 
 More comprehensive documentation will be made available soon.
+"# bandler" 
