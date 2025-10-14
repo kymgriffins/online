@@ -1,8 +1,8 @@
 import React from 'react';
-import IntroSection from '../components/IntroSection';
 import ContactIcon from '../components/ContactIcon';
-import TypingEffect from '../components/TypingEffect';
+import IntroSection from '../components/IntroSection';
 import SkillsSummary from '../components/SkillsSummary';
+import TypingEffect from '../components/TypingEffect';
 
 import ContactData from '../data/ContactData.json';
 
@@ -20,9 +20,7 @@ function Intro() {
                 </TypingEffect>
 
                 <p className='subtitle text-secondary'>
-                    Tech-savvy and versatile IT Consultant skilled in full-stack development, automation, and data-driven systems.
-                    Experienced in designing and deploying complete digital solutions — from web apps to intelligent backend infrastructure.
-                    Passionate about learning emerging technologies and solving complex problems through innovative, scalable software.
+                    Tech-savvy and versatile IT Consultant with expertise in full-stack development, automation, and data-driven systems. Experienced in designing and deploying end-to-end digital solutions, from responsive web platforms to intelligent backend architectures. Brings hands-on exposure to financial markets, algorithmic trading, and data analytics, applying technical precision to volatile and fast-moving environments. Adept at transforming emerging technologies into scalable, resilient, and innovative systems. Committed to continuous learning, disciplined problem-solving, and delivering impactful software that thrives even under market pressure.
                 </p>
 
                 <SkillsSummary />
