@@ -39,10 +39,11 @@
       "Data Visualization",
       "Project Tracking"
     ],
-    "description": "A responsive web platform built for construction companies to manage projects, workers, and analytics dashboards. Focused on simplifying data collection and improving site collaboration.",
-    "repoLink": "https://outlinedesignsltd.vercel.app/",
-    "demoLink": "https://construstease.vercel.app/",
-    "imgPath": "https://cdn.dribbble.com/userupload/44660455/file/957a28c01646142e2fc67e72138314c1.png?resize=1024x768&vertical=center",
+
+    "description": " a comprehensive construction project management platform that digitizes and streamlines the entire construction lifecycle from planning to invoicing. The platform connects all stakeholders—architects, foremen, supervisors, contractors, and clients—through a unified real-time system that prevents costly rework, reduces material waste, and ensures project profitability.",
+    "repoLink": " https://github.com/kymgriffins/Project-Management/tree/main",
+    "demoLink": "https://outlined-projects.vercel.app/",
+    "imgPath": "https://i.pinimg.com/736x/12/72/fc/1272fce9f406ddd227f6bf2450664894.jpg",
     "tabs": {
       "screenshots": [
         {
@@ -74,8 +75,8 @@
       "ETL",
       "Analytics"
     ],
-    "description": "A research and analytics system for startups. Built data pipelines, ETL automation, and ML-driven insights dashboards. Designed to test hypotheses and visualize performance trends.",
-    "repoLink": "https://github.com/kymgriffins/insightflow",
+    "description": "A Computational Market Microstructure Analysis (CMMA) is the science of applying Algorithmic Trading Concepts specifically data processing, statistical computation, and visualization—to quantify and analyze the internal dynamics of financial markets. It moves beyond simple price prediction to understand the behavior of the market through metrics derived from raw, high-frequency or daily market data (Open, High, Low, Close, Volume).",
+    "repoLink": "https://github.com/kymgriffins/TechnicalScience",
     "demoLink": "https://insightflow-ai.vercel.app/",
     "imgPath": "https://i.pinimg.com/736x/0e/0b/db/0e0bdb3c1427cf728a5ea32cc893c05e.jpg",
     "tabs": {

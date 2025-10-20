@@ -20,11 +20,7 @@ function Intro() {
                 </TypingEffect>
 
                 <p className='subtitle text-secondary'>
-                    IT Consultant with strong expertise in full-stack development, automation, and data-driven systems. Experienced in designing and deploying end-to-end digital solutions, ranging from responsive web platforms to intelligent backend architectures. Brings hands-on exposure to financial markets, algorithmic trading, and data analytics, applying technical precision within volatile and fast-moving trading environments.
-
-                    Proven track record as a proprietary trader, having successfully passed trading challenges and managed capital in live markets. Skilled at leveraging market insights, executing strategic trades, and managing risk efficiently. Adept at transforming emerging technologies into scalable, resilient, and innovative systems that deliver impactful software solutions thriving under market pressures.
-
-Committed to continuous learning, disciplined problem-solving, and bridging the gap between technology and finance to drive advanced trading automation and software innovation.                </p>
+                    I operate at the unique intersection of software engineering and financial risk management. With 4+ years of experience, I don't just build applications—I architect systems with risk intelligence embedded in their DNA. My dual expertise allows me to create solutions that are not only technically sound but also financially resilient.</p>
 
                 <SkillsSummary />
 
