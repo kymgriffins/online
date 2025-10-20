@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
-import Section from '../components/Section'
-import OpenSourceCard from '../components/OpenSourceCard'
+import OpenSourceCard from '../components/OpenSourceCard';
+import Section from '../components/Section';
 
 import jsonData from '../data/OpenSourceData.json';
 
@@ -16,7 +16,7 @@ function OpenSource() {
 
 
     return (
-        <Section title={"Open source"} id={"OpenSource"}>
+        <Section title={"Affiliates"} id={"OpenSource"}>
 
             <div className='row card-section mt-3'>
 

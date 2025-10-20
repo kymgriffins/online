@@ -30,7 +30,7 @@ function OpenSourceCard(props) {
                     <div className='badge-container'>
                         {props.data['url'] ?
                             <a href={url} target="_blank" className='link text-large'>
-                                <i className="bi bi-link-45deg"></i> View project
+                                <i className="bi bi-link-45deg"></i> View Prop
                             </a>
                             : null}
                     </div>
