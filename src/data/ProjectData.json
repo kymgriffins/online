@@ -1,34 +1,5 @@
 [
-  {
-    "id": 1,
-    "show": true,
-    "title": "MediCore360 – Hospital Management System",
-    "tags": [
-      "Full-Stack",
-      "Python",
-      "React",
-      "Automation",
-      "Healthcare"
-    ],
-    "description": "An integrated hospital management platform automating feedback, fleet, laundry, and repair workflows. Designed to streamline operational visibility, improve resource tracking, and enhance patient experience across multiple departments.",
-    "repoLink": "https://github.com/kymgriffins/medicore360",
-    "demoLink": "https://medicore360-demo.vercel.app/",
-    "imgPath": "https://i.pinimg.com/1200x/7f/8d/11/7f8d1157b6f4820fc20eb054cd050b1c.jpg",
-    "tabs": {
-      "screenshots": [
-        {
-          "img": "https://cdn.dribbble.com/userupload/14432751/file/original-2c5c8bd21127132b1efa9820bef164ba.png?resize=1024x768&vertical=center",
-          "title": "Dashboard Overview",
-          "description": "Centralized dashboard visualizing hospital KPIs, maintenance tasks, and live patient feedback."
-        },
-        {
-          "img": "https://cdn.dribbble.com/userupload/17284751/file/original-2f74de279fc8748355e0efa661fa52db.png?resize=1024x768&vertical=center",
-          "title": "Genetic Journey",
-          "description": "Tracks repair and logistics requests across hospital facilities for faster resolution."
-        }
-      ]
-    }
-  },
+  
   {
     "id": 2,
     "show": true,
