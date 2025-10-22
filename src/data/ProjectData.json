@@ -2,39 +2,109 @@
   {
     "id": 1,
     "show": true,
-    "title": "Gr8 Agent – Financial Analytics Assistant",
+    "title": "Gr8 Agent – AI-Powered Market Structure Analysis Platform",
     "tags": [
-      "AI",
-      "FinTech",
-      "Machine Learning",
+      "AI Trading",
+      "Market Microstructure",
+      "ICT Methodology",
       "Real-time Analytics",
-      "Chatbot"
+      "Multi-Asset Analysis",
+      "Machine Learning",
+      "Financial Data Processing"
     ],
-    "description": "An intelligent financial analytics platform that combines AI-powered insights with real-time market data. FinBot provides personalized financial advice, portfolio analysis, and predictive market trends through natural language conversations. The system leverages machine learning algorithms to offer investment recommendations, risk assessment, and automated financial reporting for both individual investors and institutional clients.",
+    "description": "A sophisticated AI-driven market analysis platform specializing in ICT (Inner Circle Trader) methodology and market microstructure analysis. Gr8 Agent provides institutional-grade trading insights through advanced pattern recognition, liquidity level detection, and real-time market structure analysis across multiple asset classes including Forex, Futures, and Indices.",
     "repoLink": "https://github.com/kymgriffins/FinBot",
     "demoLink": "https://finbot-rsf9.onrender.com/",
     "imgPath": "https://i.pinimg.com/1200x/3d/d0/d3/3dd0d3b33c414239a9e665cdafc26873.jpg",
     "tabs": {
       "screenshots": [
         {
-          "img": "https://cdn.dribbble.com/userupload/18904321/file/original-8a9c8d7c6f5e4d3c2b1a0f9e8d7c6b5a.png?resize=1024x768&vertical=center",
-          "title": "AI Chat Interface",
-          "description": "Natural language financial assistant with real-time market insights and portfolio analysis."
+          "img": "/images/Gr8Agency.png",
+          "title": "AI Weekly Analysis Dashboard",
+          "description": "Advanced AI-powered market structure analysis with machine learning pattern recognition, predictive modeling, and multi-scenario analysis across multiple data sources including YiTamura and PMP Professional data feeds."
         },
         {
-          "img": "https://cdn.dribbble.com/userupload/19204321/file/original-7b9c8d7c6f5e4d3c2b1a0f9e8d7c6b5a.png?resize=1024x768&vertical=center",
-          "title": "Portfolio Dashboard",
-          "description": "Comprehensive investment portfolio visualization with performance metrics and risk analysis."
+          "img": "/images/market%20agency.png",
+          "title": "Multi-Asset Trading Analysis",
+          "description": "Real-time analysis of Forex pairs (GBPUSD, USDJPY), Futures (CL, ES, NQ, YM) with ICT premium/discount levels, liquidity detection, and trading status monitoring. Features build-up analysis, consolidation patterns, and detailed market structure setups."
         },
         {
-          "img": "https://cdn.dribbble.com/userupload/19504321/file/original-6c9d8e7f6g5h4i3j2k1l0m9n8o7p6q.png?resize=1024x768&vertical=center",
-          "title": "Market Analytics",
-          "description": "Real-time market data visualization with predictive trend analysis and investment opportunities."
+          "img": "/images/Agency.png",
+          "title": "Market Session & Liquidity Analytics",
+          "description": "Comprehensive market session analysis (London, New York, Asia) with key trading times, liquidity level mapping, and premium/discount strength calculations. Includes daily ranges, fair value gaps, and institutional order flow analysis."
         }
-      ]
+      ],
+      "features": [
+        {
+          "title": "AI-Powered Market Structure Analysis",
+          "items": [
+            "ICT Methodology Implementation",
+            "Premium/Discount Level Detection",
+            "Liquidity Zone Identification",
+            "Market Session Analysis",
+            "Pattern Recognition Algorithms"
+          ]
+        },
+        {
+          "title": "Multi-Source Data Integration",
+          "items": [
+            "YiTamura Free Data Feeds",
+            "PMP Professional Data",
+            "Cross-Source Validation",
+            "Real-time Market Data Processing",
+            "Data Quality Assessment"
+          ]
+        },
+        {
+          "title": "Advanced Analytics",
+          "items": [
+            "Machine Learning Pattern Recognition",
+            "Predictive Market Modeling",
+            "Confidence Scoring System",
+            "Multi-Scenario Analysis",
+            "Performance Backtesting"
+          ]
+        },
+        {
+          "title": "Trading Tools",
+          "items": [
+            "Trading Journal Integration",
+            "Benchmarking & Evaluation",
+            "Market Overview Dashboard",
+            "Risk Assessment Metrics",
+            "Real-time Alerts"
+          ]
+        }
+      ],
+      "technical": {
+        "analysis_methodology": "ICT (Inner Circle Trader) Market Structure",
+        "supported_assets": [
+          "Forex Pairs",
+          "Futures",
+          "Indices",
+          "Commodities"
+        ],
+        "data_sources": [
+          "YiTamura",
+          "PMP Professional",
+          "Multiple Financial APIs"
+        ],
+        "key_metrics": [
+          "Premium/Discount Levels",
+          "Liquidity Zones",
+          "Market Session Ranges",
+          "Fair Value Gaps",
+          "Price Action Patterns"
+        ],
+        "analysis_timeframes": [
+          "Daily High/Low/Range",
+          "Session-based Analysis",
+          "Real-time Monitoring",
+          "Weekly Structure Analysis"
+        ]
+      }
     }
   },
-
   {
     "id": 2,
     "show": true,
