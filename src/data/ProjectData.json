@@ -1,5 +1,40 @@
 [
-  
+  {
+    "id": 1,
+    "show": true,
+    "title": "Gr8 Agent – Financial Analytics Assistant",
+    "tags": [
+      "AI",
+      "FinTech",
+      "Machine Learning",
+      "Real-time Analytics",
+      "Chatbot"
+    ],
+    "description": "An intelligent financial analytics platform that combines AI-powered insights with real-time market data. FinBot provides personalized financial advice, portfolio analysis, and predictive market trends through natural language conversations. The system leverages machine learning algorithms to offer investment recommendations, risk assessment, and automated financial reporting for both individual investors and institutional clients.",
+    "repoLink": "https://github.com/kymgriffins/FinBot",
+    "demoLink": "https://finbot-rsf9.onrender.com/",
+    "imgPath": "https://i.pinimg.com/736x/8a/4b/bb/8a4bbbe6d5d8d7f9c6a8e4e4b4f7c8a2d.jpg",
+    "tabs": {
+      "screenshots": [
+        {
+          "img": "https://cdn.dribbble.com/userupload/18904321/file/original-8a9c8d7c6f5e4d3c2b1a0f9e8d7c6b5a.png?resize=1024x768&vertical=center",
+          "title": "AI Chat Interface",
+          "description": "Natural language financial assistant with real-time market insights and portfolio analysis."
+        },
+        {
+          "img": "https://cdn.dribbble.com/userupload/19204321/file/original-7b9c8d7c6f5e4d3c2b1a0f9e8d7c6b5a.png?resize=1024x768&vertical=center",
+          "title": "Portfolio Dashboard",
+          "description": "Comprehensive investment portfolio visualization with performance metrics and risk analysis."
+        },
+        {
+          "img": "https://cdn.dribbble.com/userupload/19504321/file/original-6c9d8e7f6g5h4i3j2k1l0m9n8o7p6q.png?resize=1024x768&vertical=center",
+          "title": "Market Analytics",
+          "description": "Real-time market data visualization with predictive trend analysis and investment opportunities."
+        }
+      ]
+    }
+  },
+
   {
     "id": 2,
     "show": true,

@@ -1,7 +1,7 @@
 {
     "displaySections": {
         "project": true,
-        "articles": false,
+        "articles": true,
         "open_source": true
     }
 }
