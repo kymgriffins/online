@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
-import TypingEffect from '../components/TypingEffect'
+import TypingEffect from '../components/TypingEffect';
 import PopupModal from './PopupModal';
 
 import ReactGA from 'react-ga4';
@@ -11,24 +11,22 @@ function ProjectCard(props) {
     // State to manage modal visibility
     const [isModalOpen, setIsModalOpen] = useState(false);
 
-    // Function to toggle modal visibility and close only when clicked outside the modal content
-    const toggleModal = (event) => {
-        const isClickInsideModal = event.target.closest('.modal-content');
-        if (!isClickInsideModal) {
-            setIsModalOpen(!isModalOpen);
-        }
-
-        // Record the 'select content' recommended event for GA
+    // Function to open modal and record GA event
+    const openModal = () => {
+        setIsModalOpen(true);
         ReactGA.event("select_content", {
             content_type: 'Project',
             content_id: title
         });
     };
 
+    // Function to close modal
+    const closeModal = () => setIsModalOpen(false);
+
     return (
         <section
             className='mb-3 display-card cursor-pointer'
-            onClick={toggleModal}
+            onClick={openModal}
         >
             <div className='row card-row'>
                 <div className='col-12 col-md-4'>
@@ -80,6 +78,7 @@ function ProjectCard(props) {
                             repoLink={repoLink}
                             demoLink={demoLink}
                             tabs={tabs}
+                            onClose={closeModal}
                         />
                     )}
 
