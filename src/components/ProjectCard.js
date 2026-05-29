@@ -1,17 +1,15 @@
 import { useState } from 'react';
 
-import TypingEffect from '../components/TypingEffect';
 import PopupModal from './PopupModal';
+import { getProjectImage } from '../utils/projectImage';
 
 import ReactGA from 'react-ga4';
 
 function ProjectCard(props) {
-    const { imgPath, title, tags, description, repoLink, demoLink, tabs } = props.data;
+    const { title, tags, description, repoLink, demoLink, tabs } = props.data;
 
-    // State to manage modal visibility
     const [isModalOpen, setIsModalOpen] = useState(false);
 
-    // Function to open modal and record GA event
     const openModal = () => {
         setIsModalOpen(true);
         ReactGA.event("select_content", {
@@ -20,38 +18,34 @@ function ProjectCard(props) {
         });
     };
 
-    // Function to close modal
     const closeModal = () => setIsModalOpen(false);
+
+    const imgSrc = getProjectImage(title);
 
     return (
         <section
-            className='mb-3 display-card cursor-pointer'
+            className='mb-4 display-card cursor-pointer'
             onClick={openModal}
         >
-            <div className='row card-row'>
-                <div className='col-12'>
+            <div className='project-card-inner'>
+                <div className='project-img-wrapper'>
                     <img
-                        className='display-img align-self-center display-img-border'
-                        src={imgPath}
+                        className='project-img'
+                        src={imgSrc}
                         alt=''
                     />
                 </div>
 
-                <div className='col-12'>
-                    <TypingEffect tag='h3' typingSpeed={30}>
-                        {title}
-                    </TypingEffect>
-
+                <div className='project-card-body'>
                     <div className='badge-container'>
                         {tags.map(function (tag, index) {
                             return <span key={index} className='badge'>{tag}</span>;
                         })}
                     </div>
 
-                    <p>
+                    <p className='project-description'>
                         {description}
                     </p>
-
 
                     <div className='badge-container'>
                         <span className='link text-large cursor-pointer'>
@@ -68,22 +62,22 @@ function ProjectCard(props) {
                             </a>
                             : null}
                     </div>
-
-                    {isModalOpen && (
-                        <PopupModal
-                            imgPath={imgPath}
-                            title={title}
-                            tags={tags}
-                            description={description}
-                            repoLink={repoLink}
-                            demoLink={demoLink}
-                            tabs={tabs}
-                            onClose={closeModal}
-                        />
-                    )}
-
                 </div>
             </div>
+
+            {isModalOpen && (
+                <PopupModal
+                    imgPath={imgSrc}
+                    title={title}
+                    tags={tags}
+                    description={description}
+                    repoLink={repoLink}
+                    demoLink={demoLink}
+                    tabs={tabs}
+                    onClose={closeModal}
+                />
+            )}
+
         </section>
     );
 }

@@ -1,28 +1,31 @@
 import React, { useState, useEffect } from 'react';
 
-import Section from '../components/Section'
+import TypingEffect from '../components/TypingEffect'
 import ProjectCard from '../components/ProjectCard'
 
 import jsonData from '../data/ProjectData.json';
-
 
 function Projects() {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    // Set the items state with the imported JSON data
     setItems(jsonData);
   }, []);
 
   return (
-    <Section title={"Projects"} id={"Projects"}>
-      <div className='row card-section'>
+    <div className='py-5' id={"Projects"}>
+      <hr className='mb-5' />
+
+      <TypingEffect className="m-0 mb-4 section-title" tag="h2" typingSpeed={50}>
+        Projects
+      </TypingEffect>
+
+      <div className='row g-4'>
         {items
-          // Filter out projects where 'show' is false
           .filter(project => project.show)
-          .map((project, index) => (
+          .map((project) => (
             <div
-              className='col-12 col-md-6 px-2'
+              className='col-12 col-md-6'
               key={project.id}
             >
               <ProjectCard
@@ -31,9 +34,8 @@ function Projects() {
             </div>
           ))}
       </div>
-    </Section>
-
+    </div>
   );
 }
 
-export default Projects;  
+export default Projects;
