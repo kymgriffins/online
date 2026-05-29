@@ -5,7 +5,6 @@ import Intro from './sections/Intro'
 import Projects from './sections/Projects'
 import Resume from './sections/Resume'
 import Contact from './sections/Contact'
-import Articles from './sections/Articles'
 
 import CopyrightLabel from './components/CopyrightLabel'
 
@@ -29,10 +28,6 @@ function App() {
         }
 
         <Resume />
-
-        {ProjectConfig.displaySections.articles &&
-          <Articles />
-        }
 
         <Contact />
 
