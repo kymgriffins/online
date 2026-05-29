@@ -29,7 +29,7 @@ function ProjectCard(props) {
             onClick={openModal}
         >
             <div className='row card-row'>
-                <div className='col-12 col-md-4'>
+                <div className='col-12'>
                     <img
                         className='display-img align-self-center display-img-border'
                         src={imgPath}
@@ -37,7 +37,7 @@ function ProjectCard(props) {
                     />
                 </div>
 
-                <div className='col-12 col-md-8'>
+                <div className='col-12'>
                     <TypingEffect tag='h3' typingSpeed={30}>
                         {title}
                     </TypingEffect>

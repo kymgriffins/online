@@ -22,7 +22,7 @@ function Projects() {
           .filter(project => project.show)
           .map((project, index) => (
             <div
-              className='col-12 px-2'
+              className='col-12 col-md-6 px-2'
               key={project.id}
             >
               <ProjectCard
