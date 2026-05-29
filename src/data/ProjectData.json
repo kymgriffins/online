@@ -2,7 +2,7 @@
   {
     "id": 1,
     "show": true,
-    "title": "Budget Ndio Story – Tech Lead",
+    "title": "BUDGET NDIO STORY",
     "tags": [
       "System Architecture",
       "Scalability",
@@ -50,7 +50,7 @@
   {
     "id": 2,
     "show": true,
-    "title": "Shifters – ECU & ADAS Vehicle Commerce Platform",
+    "title": "SHIFTERS (ECU & ADAS)",
     "tags": [
       "E-Commerce",
       "System Architecture",
@@ -98,7 +98,7 @@
   {
     "id": 3,
     "show": true,
-    "title": "DevOps Technology Kenya – Hospital Management System",
+    "title": "DEVOPS TECHNOLOGY KENYA",
     "tags": [
       "Full-Stack",
       "Microservices",
@@ -146,7 +146,7 @@
   {
     "id": 4,
     "show": true,
-    "title": "eKRAAL Innovation Hub – OSINT Data Engineering",
+    "title": "eKRAAL INNOVATION HUB",
     "tags": [
       "Data Engineering",
       "OSINT",
@@ -194,7 +194,7 @@
   {
     "id": 5,
     "show": true,
-    "title": "Outline Designs – Content Architecture & Design Systems",
+    "title": "OUTLINE DESIGNS",
     "tags": [
       "Content Architecture",
       "Design Systems",
