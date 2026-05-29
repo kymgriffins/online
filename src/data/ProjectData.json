@@ -2,47 +2,25 @@
   {
     "id": 1,
     "show": true,
+    "period": "2025 – Present",
     "title": "BUDGET NDIO STORY",
-    "tags": [
-      "System Architecture",
-      "Scalability",
-      "Product Engineering",
-      "Automation",
-      "CI/CD",
-      "React",
-      "Node.js"
-    ],
+    "tags": ["System Architecture", "Scalability", "Product Engineering", "Automation", "CI/CD", "React", "Node.js"],
     "description": "Architected a scalable system that grew to over ten thousand monthly active users. Built a multi-tenant content framework that absorbed growth without requiring rebuilds. Designed an intuitive interface enabling non-technical staff to publish complex interactive experiences without engineering support. Implemented automated testing and deployment pipelines, reducing release risk and accelerating feature delivery from concept to production.",
     "repoLink": "https://budgetndiostory.org",
     "demoLink": "https://budgetndiostory.org",
-    "imgPath": "https://i.pinimg.com/736x/3d/d0/d3/3dd0d3b33c414239a9e665cdafc26873.jpg",
     "tabs": {
       "features": [
         {
           "title": "Scalable Architecture",
-          "items": [
-            "Multi-tenant content framework design",
-            "10K+ MAU system architecture",
-            "Zero-rebuild growth absorption",
-            "Performance optimization at scale"
-          ]
+          "items": ["Multi-tenant content framework design", "10K+ MAU system architecture", "Zero-rebuild growth absorption", "Performance optimization at scale"]
         },
         {
           "title": "Product Engineering",
-          "items": [
-            "Intuitive non-technical user interfaces",
-            "Content management for complex experiences",
-            "Cross-team collaboration workflows"
-          ]
+          "items": ["Intuitive non-technical user interfaces", "Content management for complex experiences", "Cross-team collaboration workflows"]
         },
         {
           "title": "DevOps & Automation",
-          "items": [
-            "Automated CI/CD pipelines",
-            "Reduced release risk",
-            "Accelerated feature delivery",
-            "Testing infrastructure"
-          ]
+          "items": ["Automated CI/CD pipelines", "Reduced release risk", "Accelerated feature delivery", "Testing infrastructure"]
         }
       ]
     }
@@ -50,47 +28,25 @@
   {
     "id": 2,
     "show": true,
+    "period": "2024 – 2026",
     "title": "SHIFTERS (ECU & ADAS)",
-    "tags": [
-      "E-Commerce",
-      "System Architecture",
-      "Security",
-      "Node.js",
-      "React",
-      "Payment Integration"
-    ],
+    "tags": ["E-Commerce", "System Architecture", "Security", "Node.js", "React", "Payment Integration"],
     "description": "Built a secure commerce platform for sensitive digital products that generated approximately six thousand Omani Rial in monthly recurring revenue. Owned the full product lifecycle from architecture to revenue, maintaining ninety-nine point eight percent uptime and zero critical post-launch defects over twelve months. Implemented robust validation, audit trails, and access controls ensuring transaction integrity.",
     "repoLink": "https://github.com/kymgriffins",
     "demoLink": "",
-    "imgPath": "https://i.pinimg.com/736x/12/72/fc/1272fce9f406ddd227f6bf2450664894.jpg",
     "tabs": {
       "features": [
         {
           "title": "Platform Engineering",
-          "items": [
-            "Secure commerce platform architecture",
-            "Digital product delivery system",
-            "Payment gateway integration",
-            "6K OMR/month recurring revenue"
-          ]
+          "items": ["Secure commerce platform architecture", "Digital product delivery system", "Payment gateway integration", "6K OMR/month recurring revenue"]
         },
         {
           "title": "Data & Security",
-          "items": [
-            "Transaction validation & audit trails",
-            "Access control systems",
-            "Customer data protection",
-            "Fraud prevention measures"
-          ]
+          "items": ["Transaction validation & audit trails", "Access control systems", "Customer data protection", "Fraud prevention measures"]
         },
         {
           "title": "Operational Excellence",
-          "items": [
-            "99.8% platform uptime",
-            "Zero critical post-launch defects",
-            "Full product lifecycle ownership",
-            "12 months of stable operation"
-          ]
+          "items": ["99.8% platform uptime", "Zero critical post-launch defects", "Full product lifecycle ownership", "12 months of stable operation"]
         }
       ]
     }
@@ -98,47 +54,21 @@
   {
     "id": 3,
     "show": true,
-    "title": "DEVOPS TECHNOLOGY KENYA",
-    "tags": [
-      "Full-Stack",
-      "Microservices",
-      "Healthcare",
-      "CI/CD",
-      "Docker",
-      "API Design"
-    ],
-    "description": "Spearheaded end-to-end development of a comprehensive hospital management system, co-architecting a full-stack platform integrating critical operational modules. Designed and implemented modular microservices architecture with independent, scalable services for distinct business functions. Engineered automated CI/CD pipelines using GitHub Actions and Docker, and authored extensive technical documentation and API specifications.",
+    "period": "2023 – 2024",
+    "title": "OUTLINE DESIGNS",
+    "tags": ["Content Architecture", "Design Systems", "No-Code", "UX", "Automation"],
+    "description": "Designed a content architecture allowing non-technical studio staff to publish new projects, update case studies, and restructure portfolio categories without writing code or requesting engineering support. The system enforces visual consistency automatically, eliminating the bottleneck where marketing updates waited days for developer availability.",
     "repoLink": "https://github.com/kymgriffins",
     "demoLink": "",
-    "imgPath": "https://i.pinimg.com/736x/0e/0b/db/0e0bdb3c1427cf728a5ea32cc893c05e.jpg",
     "tabs": {
       "features": [
         {
-          "title": "System Architecture",
-          "items": [
-            "Full-stack hospital management platform",
-            "Modular microservices architecture",
-            "Independent scalable service modules",
-            "Critical operational module integration"
-          ]
+          "title": "Content Architecture",
+          "items": ["No-code content publishing system", "Automatic visual consistency enforcement", "Brand standards adherence", "Portfolio category management"]
         },
         {
-          "title": "DevOps & Infrastructure",
-          "items": [
-            "GitHub Actions CI/CD pipelines",
-            "Docker containerization",
-            "Automated deployment processes",
-            "Consistent release management"
-          ]
-        },
-        {
-          "title": "Documentation & Collaboration",
-          "items": [
-            "Technical documentation & API specs",
-            "System integration guides",
-            "Cross-team collaboration enablement",
-            "Developer onboarding streamlining"
-          ]
+          "title": "Operational Impact",
+          "items": ["Eliminated developer bottleneck", "Reduced publishing time from days to minutes", "Empowered non-technical staff", "Streamlined marketing operations"]
         }
       ]
     }
@@ -146,47 +76,25 @@
   {
     "id": 4,
     "show": true,
-    "title": "eKRAAL INNOVATION HUB",
-    "tags": [
-      "Data Engineering",
-      "OSINT",
-      "Automation",
-      "Python",
-      "Security",
-      "UI/UX"
-    ],
-    "description": "Automated collection and analysis of large-scale datasets, reducing manual processing time by seventy percent and enabling analysts to review five times more information sources. Built secure internal tools with strict access controls and audit logging meeting stringent confidentiality requirements. Designed intuitive interfaces for complex data workflows under high-stakes operational pressure.",
+    "period": "Jul 2022 – Jan 2023",
+    "title": "DEVOPS TECHNOLOGY KENYA",
+    "tags": ["Full-Stack", "Microservices", "Healthcare", "CI/CD", "Docker", "API Design"],
+    "description": "Spearheaded end-to-end development of a comprehensive hospital management system, co-architecting a full-stack platform integrating critical operational modules. Designed and implemented modular microservices architecture with independent, scalable services for distinct business functions. Engineered automated CI/CD pipelines using GitHub Actions and Docker, and authored extensive technical documentation and API specifications.",
     "repoLink": "https://github.com/kymgriffins",
     "demoLink": "",
-    "imgPath": "https://cdn.dribbble.com/userupload/17843360/file/original-4620280d6d8c56f66ec2712e0794a88f.png?resize=1024x768&vertical=center",
     "tabs": {
       "features": [
         {
-          "title": "Data Automation",
-          "items": [
-            "Large-scale dataset automation",
-            "70% reduction in manual processing",
-            "5x increase in information review capacity",
-            "Automated collection pipelines"
-          ]
+          "title": "System Architecture",
+          "items": ["Full-stack hospital management platform", "Modular microservices architecture", "Independent scalable service modules", "Critical operational module integration"]
         },
         {
-          "title": "Security & Compliance",
-          "items": [
-            "Strict access control implementation",
-            "Audit logging systems",
-            "Confidentiality requirement compliance",
-            "Secure internal tooling"
-          ]
+          "title": "DevOps & Infrastructure",
+          "items": ["GitHub Actions CI/CD pipelines", "Docker containerization", "Automated deployment processes", "Consistent release management"]
         },
         {
-          "title": "User Experience",
-          "items": [
-            "Intuitive data workflow interfaces",
-            "High-stakes operational design",
-            "Usability under pressure",
-            "Complex data visualization"
-          ]
+          "title": "Documentation & Collaboration",
+          "items": ["Technical documentation & API specs", "System integration guides", "Cross-team collaboration enablement", "Developer onboarding streamlining"]
         }
       ]
     }
@@ -194,37 +102,25 @@
   {
     "id": 5,
     "show": true,
-    "title": "OUTLINE DESIGNS",
-    "tags": [
-      "Content Architecture",
-      "Design Systems",
-      "No-Code",
-      "UX",
-      "Automation"
-    ],
-    "description": "Designed a content architecture allowing non-technical studio staff to publish new projects, update case studies, and restructure portfolio categories without writing code or requesting engineering support. The system enforces visual consistency automatically, eliminating the bottleneck where marketing updates waited days for developer availability.",
+    "period": "Jun 2022 – Sep 2022",
+    "title": "eKRAAL INNOVATION HUB",
+    "tags": ["Data Engineering", "OSINT", "Automation", "Python", "Security", "UI/UX"],
+    "description": "Automated collection and analysis of large-scale datasets, reducing manual processing time by seventy percent and enabling analysts to review five times more information sources. Built secure internal tools with strict access controls and audit logging meeting stringent confidentiality requirements. Designed intuitive interfaces for complex data workflows under high-stakes operational pressure.",
     "repoLink": "https://github.com/kymgriffins",
     "demoLink": "",
-    "imgPath": "https://cdn.dribbble.com/userupload/19004957/file/original-b2776b72ca60c12709ac4dbe36f2d8f8.png?resize=1024x768&vertical=center",
     "tabs": {
       "features": [
         {
-          "title": "Content Architecture",
-          "items": [
-            "No-code content publishing system",
-            "Automatic visual consistency enforcement",
-            "Brand standards adherence",
-            "Portfolio category management"
-          ]
+          "title": "Data Automation",
+          "items": ["Large-scale dataset automation", "70% reduction in manual processing", "5x increase in information review capacity", "Automated collection pipelines"]
         },
         {
-          "title": "Operational Impact",
-          "items": [
-            "Eliminated developer bottleneck",
-            "Reduced publishing time from days to minutes",
-            "Empowered non-technical staff",
-            "Streamlined marketing operations"
-          ]
+          "title": "Security & Compliance",
+          "items": ["Strict access control implementation", "Audit logging systems", "Confidentiality requirement compliance", "Secure internal tooling"]
+        },
+        {
+          "title": "User Experience",
+          "items": ["Intuitive data workflow interfaces", "High-stakes operational design", "Usability under pressure", "Complex data visualization"]
         }
       ]
     }

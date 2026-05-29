@@ -154,51 +154,137 @@ figcaption {
   text-align: center;
 }
 
-.display-card {
-  padding: 0;
-  border-radius: 0.75rem;
-  transition: 0.2s ease-in-out;
-  overflow: hidden;
-  background: var(--primary-dark-hover);
-}
-
-.display-card:hover {
-  background: #2a2a2a;
-  transform: translateY(-2px);
-}
-
-.project-card-inner {
-  display: flex;
-  flex-direction: column;
-}
-
-.project-img-wrapper {
-  width: 100%;
-  line-height: 0;
-}
-
-.project-img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.project-card-body {
-  padding: 20px;
-}
-
-.project-description {
-  font-size: 1rem;
-  line-height: 1.5;
-  margin: 10px 0;
-}
-
 figure {
   margin: 0;
 }
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 60px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--secondary-translucent);
+}
+
+.timeline-entry {
+  position: relative;
+  display: flex;
+  gap: 0;
+  margin-bottom: 2rem;
+}
+
+.timeline-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  flex-shrink: 0;
+  padding-top: 20px;
+}
+
+.timeline-period {
+  font-family: "NeueMontreal", sans-serif;
+  font-size: 0.85rem;
+  color: var(--secondary);
+  white-space: nowrap;
+  margin-bottom: 8px;
+}
+
+.timeline-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 3px solid var(--primary-dark);
+  z-index: 1;
+}
+
+.timeline-card {
+  flex: 1;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  background: var(--primary-dark-hover);
+  transition: 0.2s ease-in-out;
+  min-width: 0;
+}
+
+.timeline-card:hover {
+  background: #2a2a2a;
+  transform: translateY(-2px);
+}
+
+.timeline-card-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-img-wrapper {
+  width: 100%;
+  line-height: 0;
+}
+
+.timeline-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.timeline-card-body {
+  padding: 20px;
+}
+
+.timeline-description {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+@media (max-width: 767px) {
+  .timeline-line {
+    left: 18px;
+  }
+
+  .timeline-entry {
+    flex-direction: column;
+    padding-left: 44px;
+  }
+
+  .timeline-marker {
+    width: auto;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-top: 0;
+    margin-bottom: 8px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+
+  .timeline-period {
+    margin-bottom: 0;
+    order: 1;
+  }
+
+  .timeline-dot {
+    order: 0;
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+  }
+
+  .timeline-card {
+    margin-top: 24px;
+  }
 }
 
 

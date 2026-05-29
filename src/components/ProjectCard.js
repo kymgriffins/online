@@ -6,7 +6,7 @@ import { getProjectImage } from '../utils/projectImage';
 import ReactGA from 'react-ga4';
 
 function ProjectCard(props) {
-    const { title, tags, description, demoLink, tabs } = props.data;
+    const { title, period, tags, description, demoLink, tabs } = props.data;
 
     const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -23,40 +23,47 @@ function ProjectCard(props) {
     const imgSrc = getProjectImage(title);
 
     return (
-        <section
-            className='mb-4 display-card cursor-pointer'
-            onClick={openModal}
-        >
-            <div className='project-card-inner'>
-                <div className='project-img-wrapper'>
-                    <img
-                        className='project-img'
-                        src={imgSrc}
-                        alt=''
-                    />
-                </div>
+        <div className='timeline-entry'>
+            <div className='timeline-marker'>
+                <span className='timeline-period'>{period}</span>
+                <div className='timeline-dot'></div>
+            </div>
 
-                <div className='project-card-body'>
-                    <div className='badge-container'>
-                        {tags.map(function (tag, index) {
-                            return <span key={index} className='badge'>{tag}</span>;
-                        })}
+            <div
+                className='timeline-card cursor-pointer'
+                onClick={openModal}
+            >
+                <div className='timeline-card-inner'>
+                    <div className='timeline-img-wrapper'>
+                        <img
+                            className='timeline-img'
+                            src={imgSrc}
+                            alt=''
+                        />
                     </div>
 
-                    <p className='project-description'>
-                        {description}
-                    </p>
+                    <div className='timeline-card-body'>
+                        <div className='badge-container'>
+                            {tags.map(function (tag, index) {
+                                return <span key={index} className='badge'>{tag}</span>;
+                            })}
+                        </div>
 
-                    <div className='badge-container'>
-                        <span className='link text-large cursor-pointer'>
-                            <i className="bi bi-text-paragraph"></i> More info
-                        </span>
+                        <p className='timeline-description'>
+                            {description}
+                        </p>
 
-                        {demoLink ?
-                            <a href={demoLink} target='_blank' rel="noreferrer" className='link text-large'>
-                                <i className='bi bi-globe2'></i> Live site
-                            </a>
-                            : null}
+                        <div className='badge-container'>
+                            <span className='link text-large cursor-pointer'>
+                                <i className="bi bi-text-paragraph"></i> More info
+                            </span>
+
+                            {demoLink ?
+                                <a href={demoLink} target='_blank' rel="noreferrer" className='link text-large'>
+                                    <i className='bi bi-globe2'></i> Live site
+                                </a>
+                                : null}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -72,8 +79,7 @@ function ProjectCard(props) {
                     onClose={closeModal}
                 />
             )}
-
-        </section>
+        </div>
     );
 }
 

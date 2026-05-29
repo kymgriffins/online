@@ -20,18 +20,15 @@ function Projects() {
         Projects
       </TypingEffect>
 
-      <div className='row g-4'>
+      <div className='timeline'>
+        <div className='timeline-line'></div>
         {items
           .filter(project => project.show)
           .map((project) => (
-            <div
-              className='col-12 col-md-6'
+            <ProjectCard
               key={project.id}
-            >
-              <ProjectCard
-                data={project}
-              />
-            </div>
+              data={project}
+            />
           ))}
       </div>
     </div>
