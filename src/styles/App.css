@@ -398,3 +398,28 @@ figure {
     opacity: 0;
   }
 }
+
+.resume-section {
+  padding: 0.5rem 0;
+}
+
+.resume-download-btn {
+  margin-right: 0.5rem;
+}
+
+.resume-preview {
+  background: var(--primary-dark-hover);
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.resume-preview iframe {
+  background: #fff;
+}
+
+@media (max-width: 768px) {
+  .resume-preview iframe {
+    height: 450px;
+  }
+}

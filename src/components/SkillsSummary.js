@@ -24,23 +24,22 @@ function SkillsSummary() {
 
             <div className={`skills-summary ${isSkillSumOpen ? 'show' : ''}`}>
                 <p className='subtitle'>
-                    <strong>Core Languages:</strong> <span className='text-secondary'>Software Development: JavaScript, Python</span>
+                    <strong>Frontend Development:</strong> <span className='text-secondary'>ES6+, React.js, TypeScript, HTML/CSS, Bootstrap</span>
                 </p>
                 <p className='subtitle'>
-                    <strong>Trading & Finance:</strong> <span className='text-secondary'>Algorithmic Trading, Backtesting, Market Data Analysis, Mentorship</span>
-                </p>
-
-                <p className='subtitle'>
-                    <strong>Infrastructure & DevOps:</strong> <span className='text-secondary'>AWS, Docker, Kubernetes, CI/CD, GitHub Actions</span>
+                    <strong>Backend & Data Science:</strong> <span className='text-secondary'>Python, Node.js, REST APIs, Database Systems</span>
                 </p>
                 <p className='subtitle'>
-                    <strong>Data Science & Analytics:</strong> <span className='text-secondary'>Pandas, NumPy, scikit-learn, APIs, Power BI</span>
+                    <strong>DevOps & Systems:</strong> <span className='text-secondary'>Docker, Git, GitHub Actions, CI/CD, Cloud Infrastructure</span>
                 </p>
                 <p className='subtitle'>
-                    <strong>Trading & Finance:</strong> <span className='text-secondary'>Algorithmic Trading, Backtesting, Market Data Analysis, Automation</span>
+                    <strong>System Architecture:</strong> <span className='text-secondary'>Microservices, Scalable Design, Multi-Tenant Systems, API Design</span>
                 </p>
                 <p className='subtitle'>
-                    <strong>Design & Productivity:</strong> <span className='text-secondary'>Figma, Adobe Suite, Notion</span>
+                    <strong>Security & Data:</strong> <span className='text-secondary'>Access Control, Audit Logging, Data Pipeline Automation, OSINT</span>
+                </p>
+                <p className='subtitle'>
+                    <strong>Design & Productivity:</strong> <span className='text-secondary'>Figma (UX/UI), Notion, Technical Documentation, Product Engineering</span>
                 </p>
             </div>
 

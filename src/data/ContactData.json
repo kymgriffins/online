@@ -4,7 +4,7 @@
         "iconClassName": "bi bi-envelope-fill"
     },
     "LinkedIn": {
-        "url": "https://linkedin.com/in/griffinskimutai",
+        "url": "https://linkedin.com/in/kimutaigriffins",
         "iconClassName": "bi bi-linkedin"
     },
     "GitHub": {
@@ -14,5 +14,9 @@
     "Whatsapp": {
         "url": "https://wa.me/254727727970",
         "iconClassName": "bi bi-whatsapp"
+    },
+    "Website": {
+        "url": "https://kiplagat.vercel.app",
+        "iconClassName": "bi bi-globe2"
     }
 }

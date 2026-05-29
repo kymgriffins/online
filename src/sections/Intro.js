@@ -12,15 +12,15 @@ function Intro() {
             <div className='intro'>
 
                 <TypingEffect className="mb-2" tag="h1" typingSpeed={100}>
-                    Griffins Kimutai
+                    Kiplagat Griffins Kimutai
                 </TypingEffect>
 
                 <TypingEffect className="text-secondary intro-subtitle mt-0" tag="h2" typingSpeed={50}>
-                    Information Technology Consultant & Algorithmic Proprietary Trader
+                    Information Technology Consultant
                 </TypingEffect>
 
                 <p className='subtitle text-secondary'>
-                    I operate at the unique intersection of software engineering and financial risk management. With 4+ years of experience, I don't just build applications—I architect systems with risk intelligence embedded in their DNA. My dual expertise allows me to create solutions that are not only technically sound but also financially resilient.</p>
+                    Software engineer with four years of experience shipping systems that serve tens of thousands of users and generate significant recurring revenue. I specialize in taking unclear business requirements and delivering production-ready platforms that reduce cost, eliminate manual work, and scale without breaking. I have led technical direction for teams, owned full product lifecycles from concept to revenue, and consistently translate technical decisions into business outcomes that non-technical stakeholders understand and trust.</p>
 
                 <SkillsSummary />
 
@@ -35,6 +35,10 @@ function Intro() {
 
                     <ContactIcon url={ContactData.Email.url} type={'Email'}>
                         <i className={ContactData.Email.iconClassName}></i>
+                    </ContactIcon>
+
+                    <ContactIcon url={ContactData.Website.url} type={'Website'}>
+                        <i className={ContactData.Website.iconClassName}></i>
                     </ContactIcon>
                 </div>
 

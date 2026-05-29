@@ -2,140 +2,95 @@
   {
     "id": 1,
     "show": true,
-    "title": "Gr8 Agent – AI-Powered Market Structure Analysis Platform",
+    "title": "Budget Ndio Story – Tech Lead",
     "tags": [
-      "AI Trading",
-      "Market Microstructure",
-      "ICT Methodology",
-      "Real-time Analytics",
-      "Multi-Asset Analysis",
-      "Machine Learning",
-      "Financial Data Processing"
+      "System Architecture",
+      "Scalability",
+      "Product Engineering",
+      "Automation",
+      "CI/CD",
+      "React",
+      "Node.js"
     ],
-    "description": "A sophisticated AI-driven market analysis platform specializing in ICT (Inner Circle Trader) methodology and market microstructure analysis. Gr8 Agent provides institutional-grade trading insights through advanced pattern recognition, liquidity level detection, and real-time market structure analysis across multiple asset classes including Forex, Futures, and Indices.",
-    "repoLink": "https://github.com/kymgriffins/FinBot",
-    "demoLink": "https://finbot-rsf9.onrender.com/",
-    "imgPath": "https://i.pinimg.com/1200x/3d/d0/d3/3dd0d3b33c414239a9e665cdafc26873.jpg",
+    "description": "Architected a scalable system that grew to over ten thousand monthly active users. Built a multi-tenant content framework that absorbed growth without requiring rebuilds. Designed an intuitive interface enabling non-technical staff to publish complex interactive experiences without engineering support. Implemented automated testing and deployment pipelines, reducing release risk and accelerating feature delivery from concept to production.",
+    "repoLink": "https://budgetndiostory.org",
+    "demoLink": "https://budgetndiostory.org",
+    "imgPath": "https://i.pinimg.com/736x/3d/d0/d3/3dd0d3b33c414239a9e665cdafc26873.jpg",
     "tabs": {
-      "screenshots": [
-        {
-          "img": "/images/Gr8Agency.png",
-          "title": "AI Weekly Analysis Dashboard",
-          "description": "Advanced AI-powered market structure analysis with machine learning pattern recognition, predictive modeling, and multi-scenario analysis across multiple data sources including YiTamura and PMP Professional data feeds."
-        },
-        {
-          "img": "/images/market%20agency.png",
-          "title": "Multi-Asset Trading Analysis",
-          "description": "Real-time analysis of Forex pairs (GBPUSD, USDJPY), Futures (CL, ES, NQ, YM) with ICT premium/discount levels, liquidity detection, and trading status monitoring. Features build-up analysis, consolidation patterns, and detailed market structure setups."
-        },
-        {
-          "img": "/images/Agency.png",
-          "title": "Market Session & Liquidity Analytics",
-          "description": "Comprehensive market session analysis (London, New York, Asia) with key trading times, liquidity level mapping, and premium/discount strength calculations. Includes daily ranges, fair value gaps, and institutional order flow analysis."
-        }
-      ],
       "features": [
         {
-          "title": "AI-Powered Market Structure Analysis",
+          "title": "Scalable Architecture",
           "items": [
-            "ICT Methodology Implementation",
-            "Premium/Discount Level Detection",
-            "Liquidity Zone Identification",
-            "Market Session Analysis",
-            "Pattern Recognition Algorithms"
+            "Multi-tenant content framework design",
+            "10K+ MAU system architecture",
+            "Zero-rebuild growth absorption",
+            "Performance optimization at scale"
           ]
         },
         {
-          "title": "Multi-Source Data Integration",
+          "title": "Product Engineering",
           "items": [
-            "YiTamura Free Data Feeds",
-            "PMP Professional Data",
-            "Cross-Source Validation",
-            "Real-time Market Data Processing",
-            "Data Quality Assessment"
+            "Intuitive non-technical user interfaces",
+            "Content management for complex experiences",
+            "Cross-team collaboration workflows"
           ]
         },
         {
-          "title": "Advanced Analytics",
+          "title": "DevOps & Automation",
           "items": [
-            "Machine Learning Pattern Recognition",
-            "Predictive Market Modeling",
-            "Confidence Scoring System",
-            "Multi-Scenario Analysis",
-            "Performance Backtesting"
-          ]
-        },
-        {
-          "title": "Trading Tools",
-          "items": [
-            "Trading Journal Integration",
-            "Benchmarking & Evaluation",
-            "Market Overview Dashboard",
-            "Risk Assessment Metrics",
-            "Real-time Alerts"
+            "Automated CI/CD pipelines",
+            "Reduced release risk",
+            "Accelerated feature delivery",
+            "Testing infrastructure"
           ]
         }
-      ],
-      "technical": {
-        "analysis_methodology": "ICT (Inner Circle Trader) Market Structure",
-        "supported_assets": [
-          "Forex Pairs",
-          "Futures",
-          "Indices",
-          "Commodities"
-        ],
-        "data_sources": [
-          "YiTamura",
-          "PMP Professional",
-          "Multiple Financial APIs"
-        ],
-        "key_metrics": [
-          "Premium/Discount Levels",
-          "Liquidity Zones",
-          "Market Session Ranges",
-          "Fair Value Gaps",
-          "Price Action Patterns"
-        ],
-        "analysis_timeframes": [
-          "Daily High/Low/Range",
-          "Session-based Analysis",
-          "Real-time Monitoring",
-          "Weekly Structure Analysis"
-        ]
-      }
+      ]
     }
   },
   {
     "id": 2,
     "show": true,
-    "title": "ConstructEase – Construction Management Suite",
+    "title": "Shifters – ECU & ADAS Vehicle Commerce Platform",
     "tags": [
-      "WebApp",
-      "JavaScript",
-      "Data Visualization",
-      "Project Tracking"
+      "E-Commerce",
+      "System Architecture",
+      "Security",
+      "Node.js",
+      "React",
+      "Payment Integration"
     ],
-
-    "description": " a comprehensive construction project management platform that digitizes and streamlines the entire construction lifecycle from planning to invoicing. The platform connects all stakeholders—architects, foremen, supervisors, contractors, and clients—through a unified real-time system that prevents costly rework, reduces material waste, and ensures project profitability.",
-    "repoLink": " https://github.com/kymgriffins/Project-Management/tree/main",
-    "demoLink": "https://outlined-projects.vercel.app/",
+    "description": "Built a secure commerce platform for sensitive digital products that generated approximately six thousand Omani Rial in monthly recurring revenue. Owned the full product lifecycle from architecture to revenue, maintaining ninety-nine point eight percent uptime and zero critical post-launch defects over twelve months. Implemented robust validation, audit trails, and access controls ensuring transaction integrity.",
+    "repoLink": "https://github.com/kymgriffins",
+    "demoLink": "",
     "imgPath": "https://i.pinimg.com/736x/12/72/fc/1272fce9f406ddd227f6bf2450664894.jpg",
     "tabs": {
-      "screenshots": [
+      "features": [
         {
-          "img": "https://cdn.dribbble.com/userupload/17843360/file/original-4620280d6d8c56f66ec2712e0794a88f.png?resize=1024x768&vertical=center",
-          "title": "Project Dashboard",
-          "description": "Tracks live project progress and visualizes materials usage through interactive charts."
+          "title": "Platform Engineering",
+          "items": [
+            "Secure commerce platform architecture",
+            "Digital product delivery system",
+            "Payment gateway integration",
+            "6K OMR/month recurring revenue"
+          ]
         },
         {
-          "img": "https://cdn.dribbble.com/userupload/19004957/file/original-b2776b72ca60c12709ac4dbe36f2d8f8.png?resize=1024x768&vertical=center",
-          "title": "Task Management",
-          "description": "Collaborative task board for engineers, supervisors, and contractors."
+          "title": "Data & Security",
+          "items": [
+            "Transaction validation & audit trails",
+            "Access control systems",
+            "Customer data protection",
+            "Fraud prevention measures"
+          ]
         },
         {
-          "img": "https://cdn.dribbble.com/userupload/43183895/file/original-61af816515bc5a95b717b6830a23eb47.png?resize=1024x768&vertical=center",
-          "title": "Task Management",
-          "description": "Collaborative task board for engineers, supervisors, and contractors."
+          "title": "Operational Excellence",
+          "items": [
+            "99.8% platform uptime",
+            "Zero critical post-launch defects",
+            "Full product lifecycle ownership",
+            "12 months of stable operation"
+          ]
         }
       ]
     }
@@ -143,29 +98,133 @@
   {
     "id": 3,
     "show": true,
-    "title": "InsightFlow – Data Science & Research Platform",
+    "title": "DevOps Technology Kenya – Hospital Management System",
     "tags": [
-      "Data Science",
-      "Machine Learning",
-      "Python",
-      "ETL",
-      "Analytics"
+      "Full-Stack",
+      "Microservices",
+      "Healthcare",
+      "CI/CD",
+      "Docker",
+      "API Design"
     ],
-    "description": "A Computational Market Microstructure Analysis (CMMA) is the science of applying Algorithmic Trading Concepts specifically data processing, statistical computation, and visualization—to quantify and analyze the internal dynamics of financial markets. It moves beyond simple price prediction to understand the behavior of the market through metrics derived from raw, high-frequency or daily market data (Open, High, Low, Close, Volume).",
-    "repoLink": "https://github.com/kymgriffins/TechnicalScience",
-    "demoLink": "https://insightflow-ai.vercel.app/",
+    "description": "Spearheaded end-to-end development of a comprehensive hospital management system, co-architecting a full-stack platform integrating critical operational modules. Designed and implemented modular microservices architecture with independent, scalable services for distinct business functions. Engineered automated CI/CD pipelines using GitHub Actions and Docker, and authored extensive technical documentation and API specifications.",
+    "repoLink": "https://github.com/kymgriffins",
+    "demoLink": "",
     "imgPath": "https://i.pinimg.com/736x/0e/0b/db/0e0bdb3c1427cf728a5ea32cc893c05e.jpg",
     "tabs": {
-      "screenshots": [
+      "features": [
         {
-          "img": "https://cdn.dribbble.com/userupload/18532086/file/original-bcaf125d189b680400eac8d34252e068.png?resize=1024x768&vertical=center",
-          "title": "Data Dashboard",
-          "description": "Displays machine learning predictions and performance insights in real time."
+          "title": "System Architecture",
+          "items": [
+            "Full-stack hospital management platform",
+            "Modular microservices architecture",
+            "Independent scalable service modules",
+            "Critical operational module integration"
+          ]
         },
         {
-          "img": "https://cdn.dribbble.com/userupload/44625124/file/52738569e46e84731dd60bd4f57f44f1.png?resize=1024x768&vertical=center",
-          "title": "ETL Workflow",
-          "description": "Automated ETL and model deployment pipeline for experimental datasets."
+          "title": "DevOps & Infrastructure",
+          "items": [
+            "GitHub Actions CI/CD pipelines",
+            "Docker containerization",
+            "Automated deployment processes",
+            "Consistent release management"
+          ]
+        },
+        {
+          "title": "Documentation & Collaboration",
+          "items": [
+            "Technical documentation & API specs",
+            "System integration guides",
+            "Cross-team collaboration enablement",
+            "Developer onboarding streamlining"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "show": true,
+    "title": "eKRAAL Innovation Hub – OSINT Data Engineering",
+    "tags": [
+      "Data Engineering",
+      "OSINT",
+      "Automation",
+      "Python",
+      "Security",
+      "UI/UX"
+    ],
+    "description": "Automated collection and analysis of large-scale datasets, reducing manual processing time by seventy percent and enabling analysts to review five times more information sources. Built secure internal tools with strict access controls and audit logging meeting stringent confidentiality requirements. Designed intuitive interfaces for complex data workflows under high-stakes operational pressure.",
+    "repoLink": "https://github.com/kymgriffins",
+    "demoLink": "",
+    "imgPath": "https://cdn.dribbble.com/userupload/17843360/file/original-4620280d6d8c56f66ec2712e0794a88f.png?resize=1024x768&vertical=center",
+    "tabs": {
+      "features": [
+        {
+          "title": "Data Automation",
+          "items": [
+            "Large-scale dataset automation",
+            "70% reduction in manual processing",
+            "5x increase in information review capacity",
+            "Automated collection pipelines"
+          ]
+        },
+        {
+          "title": "Security & Compliance",
+          "items": [
+            "Strict access control implementation",
+            "Audit logging systems",
+            "Confidentiality requirement compliance",
+            "Secure internal tooling"
+          ]
+        },
+        {
+          "title": "User Experience",
+          "items": [
+            "Intuitive data workflow interfaces",
+            "High-stakes operational design",
+            "Usability under pressure",
+            "Complex data visualization"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "show": true,
+    "title": "Outline Designs – Content Architecture & Design Systems",
+    "tags": [
+      "Content Architecture",
+      "Design Systems",
+      "No-Code",
+      "UX",
+      "Automation"
+    ],
+    "description": "Designed a content architecture allowing non-technical studio staff to publish new projects, update case studies, and restructure portfolio categories without writing code or requesting engineering support. The system enforces visual consistency automatically, eliminating the bottleneck where marketing updates waited days for developer availability.",
+    "repoLink": "https://github.com/kymgriffins",
+    "demoLink": "",
+    "imgPath": "https://cdn.dribbble.com/userupload/19004957/file/original-b2776b72ca60c12709ac4dbe36f2d8f8.png?resize=1024x768&vertical=center",
+    "tabs": {
+      "features": [
+        {
+          "title": "Content Architecture",
+          "items": [
+            "No-code content publishing system",
+            "Automatic visual consistency enforcement",
+            "Brand standards adherence",
+            "Portfolio category management"
+          ]
+        },
+        {
+          "title": "Operational Impact",
+          "items": [
+            "Eliminated developer bottleneck",
+            "Reduced publishing time from days to minutes",
+            "Empowered non-technical staff",
+            "Streamlined marketing operations"
+          ]
         }
       ]
     }
