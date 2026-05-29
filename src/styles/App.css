@@ -232,6 +232,11 @@ figure {
   display: inline-block;
   position: relative;
   cursor: pointer;
+  background: none;
+  border: none;
+  font-size: x-large;
+  font-family: "Source Sans 3", sans-serif;
+  padding: 0;
 }
 
 .tab-link:hover {

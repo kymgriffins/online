@@ -29,13 +29,16 @@ function Resume() {
                     <i className="bi bi-download"></i> Download Resume (PDF)
                 </a>
 
-                <a
-                    className={`link text-large ms-3 ${expanded ? 'active' : ''}`}
+                <span
+                    className={`link text-large ms-3 cursor-pointer ${expanded ? 'active' : ''}`}
                     onClick={() => setExpanded(!expanded)}
+                    role="button"
+                    tabIndex={0}
+                    onKeyDown={(e) => { if (e.key === 'Enter') setExpanded(!expanded); }}
                 >
                     <i className={`bi ${expanded ? 'bi-chevron-up' : 'bi-eye'}`}></i>
                     {expanded ? ' Hide PDF' : ' Preview PDF'}
-                </a>
+                </span>
 
                 {expanded && (
                     <div className='resume-preview mt-3'>

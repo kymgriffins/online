@@ -1,22 +1,22 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 
 function ArticlePopupModal({ article, onClose }) {
   const [isClosing, setIsClosing] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
 
   // Handle smooth opening animation
-  useEffect(() => {
-    const timer = setTimeout(() => setIsVisible(true), 50);
-    return () => clearTimeout(timer);
-  }, []);
-
-  const handleClose = () => {
+  const handleClose = useCallback(() => {
     setIsClosing(true);
     setIsVisible(false);
     setTimeout(() => {
       if (onClose) onClose();
     }, 300);
-  };
+  }, [onClose]);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setIsVisible(true), 50);
+    return () => clearTimeout(timer);
+  }, []);
 
   useEffect(() => {
     const handleEsc = (event) => {
@@ -24,14 +24,13 @@ function ArticlePopupModal({ article, onClose }) {
     };
     window.addEventListener('keydown', handleEsc);
 
-    // Prevent body scroll when modal is open
     document.body.style.overflow = 'hidden';
 
     return () => {
       window.removeEventListener('keydown', handleEsc);
       document.body.style.overflow = 'unset';
     };
-  }, []);
+  }, [handleClose]);
 
   const handleBackdropClick = (e) => {
     if (e.target === e.currentTarget) handleClose();

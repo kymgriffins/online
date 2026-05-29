@@ -26,9 +26,10 @@ const TypingEffect = ({ children, className, tag = 'div', typingSpeed = 100 }) =
       observer.observe(containerRef.current);
     }
 
+    const current = containerRef.current;
     return () => {
-      if (containerRef.current) {
-        observer.unobserve(containerRef.current);
+      if (current) {
+        observer.unobserve(current);
       }
     };
   }, []);

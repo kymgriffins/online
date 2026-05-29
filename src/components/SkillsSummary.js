@@ -14,13 +14,13 @@ function SkillsSummary() {
 
     return (
         <div>
-            <a className='link cursor-pointer' onClick={toggleSkillSum}>
+            <span className='link cursor-pointer' onClick={toggleSkillSum} role="button" tabIndex={0} onKeyDown={(e) => { if (e.key === 'Enter') toggleSkillSum(); }}>
                 {isSkillSumOpen ? (
                     <i className="bi bi-chevron-up"></i>
                 ) : (
                     <i className="bi bi-chevron-down"></i>
                 )} Skills summary
-            </a>
+            </span>
 
             <div className={`skills-summary ${isSkillSumOpen ? 'show' : ''}`}>
                 <p className='subtitle'>

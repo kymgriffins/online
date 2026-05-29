@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import TypingEffect from '../components/TypingEffect';
 
 function PopupModal(props) {
-    const { imgPath, title, tags, description, repoLink, demoLink, tabs } = props;
+    const { imgPath, title, tags, description, repoLink, demoLink, tabs, onClose } = props;
 
     // Safe handling for tabs - default to empty object if undefined
     const safeTabs = tabs || {};
@@ -41,22 +41,20 @@ function PopupModal(props) {
         setActiveTab(tab);
     };
 
-    // Close modal with fade-out effect
-    const handleClose = () => {
+    const handleClose = React.useCallback(() => {
         setIsClosing(true);
         setTimeout(() => {
-            if (props.onClose) props.onClose();
-        }, 200); // match fadeOut duration
-    };
+            if (onClose) onClose();
+        }, 200);
+    }, [onClose]);
 
-    // Close modal on ESC key
     React.useEffect(() => {
         const handleEsc = (event) => {
             if (event.key === 'Escape') handleClose();
         };
         window.addEventListener('keydown', handleEsc);
         return () => window.removeEventListener('keydown', handleEsc);
-    }, []);
+    }, [handleClose]);
 
     // Close modal when clicking outside content
     const handleBackdropClick = (e) => {
@@ -84,11 +82,11 @@ function PopupModal(props) {
                         <p>{description}</p>
 
                         <div className='badge-container'>
-                            <a href={repoLink} target='_blank' className='link text-large'>
+                            <a href={repoLink} target='_blank' rel="noreferrer" className='link text-large'>
                                 <i className='bi bi-github'></i> Repo
                             </a>
                             {demoLink && (
-                                <a href={demoLink} target='_blank' className='link text-large'>
+                                <a href={demoLink} target='_blank' rel="noreferrer" className='link text-large'>
                                     <i className='bi bi-globe2'></i> Live demo
                                 </a>
                             )}
@@ -104,13 +102,13 @@ function PopupModal(props) {
                             <div className='col-md-12'>
                                 <div className='tab-container'>
                                     {tabsKeys.map((tab) => (
-                                        <a
+                                        <button
                                             key={tab}
-                                            className={activeTab === tab ? 'active tab-link text-x-large' : 'tab-link text-x-large'}
+                                            className={`${activeTab === tab ? 'active ' : ''}tab-link text-x-large`}
                                             onClick={() => handleTabClick(tab)}
                                         >
-                                            {tab.charAt(0).toUpperCase() + tab.slice(1)} {/* Capitalize the first letter */}
-                                        </a>
+                                            {tab.charAt(0).toUpperCase() + tab.slice(1)}
+                                        </button>
                                     ))}
                                 </div>
                             </div>

@@ -11,7 +11,7 @@ function ArticleCard(props) {
                     <img
                         className='display-img'
                         src={imgPath}
-                        alt="Article cover image"
+                        alt=""
                     />
                 </div>
                 <div className='col-12 col-md-8'>

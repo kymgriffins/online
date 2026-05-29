@@ -54,16 +54,16 @@ function ProjectCard(props) {
 
 
                     <div className='badge-container'>
-                        <a className='link text-large'>
+                        <span className='link text-large cursor-pointer'>
                             <i className="bi bi-text-paragraph"></i> More info
-                        </a>
+                        </span>
 
-                        <a href={repoLink} target='_blank' className='link text-large'>
+                        <a href={repoLink} target='_blank' rel="noreferrer" className='link text-large'>
                             <i className='bi bi-github'></i> Repo
                         </a>
 
                         {props.data['demoLink'] ?
-                            <a href={demoLink} target='_blank' className='link text-large'>
+                            <a href={demoLink} target='_blank' rel="noreferrer" className='link text-large'>
                                 <i className='bi bi-globe2'></i> Live demo
                             </a>
                             : null}
