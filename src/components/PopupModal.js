@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import TypingEffect from '../components/TypingEffect';
 
 function PopupModal(props) {
-    const { imgPath, title, tags, description, repoLink, demoLink, tabs, onClose } = props;
+    const { imgPath, title, tags, description, demoLink, tabs, onClose } = props;
 
     // Safe handling for tabs - default to empty object if undefined
     const safeTabs = tabs || {};
@@ -82,12 +82,9 @@ function PopupModal(props) {
                         <p>{description}</p>
 
                         <div className='badge-container'>
-                            <a href={repoLink} target='_blank' rel="noreferrer" className='link text-large'>
-                                <i className='bi bi-github'></i> Repo
-                            </a>
                             {demoLink && (
                                 <a href={demoLink} target='_blank' rel="noreferrer" className='link text-large'>
-                                    <i className='bi bi-globe2'></i> Live demo
+                                    <i className='bi bi-globe2'></i> Live site
                                 </a>
                             )}
                         </div>

@@ -10,7 +10,7 @@ function Section(props) {
 
             <div className='col-md-4 col-xl-5'>
                 {props.title ?
-                    <TypingEffect className="m-0 sticky-title" tag="h2" typingSpeed={50}>
+                    <TypingEffect className="m-0 sticky-title" tag="h2" typingSpeed={10}>
                         {props.title}
                     </TypingEffect>
                     : null}

@@ -16,7 +16,7 @@ function Projects() {
     <div className='py-5' id={"Projects"}>
       <hr className='mb-5' />
 
-      <TypingEffect className="m-0 mb-4 section-title" tag="h2" typingSpeed={50}>
+      <TypingEffect className="m-0 mb-4 section-title" tag="h2" typingSpeed={10}>
         Projects
       </TypingEffect>
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-const TypingEffect = ({ children, className, tag = 'div', typingSpeed = 100 }) => {
+const TypingEffect = ({ children, className, tag = 'div', typingSpeed = 8 }) => {
   const [isVisible, setIsVisible] = useState(false);
   const [typedText, setTypedText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);

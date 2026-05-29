@@ -11,11 +11,11 @@ function Intro() {
         <IntroSection id={"Intro"}>
             <div className='intro'>
 
-                <TypingEffect className="mb-2" tag="h1" typingSpeed={100}>
+                <TypingEffect className="mb-2" tag="h1" typingSpeed={10}>
                     Kiplagat Griffins Kimutai
                 </TypingEffect>
 
-                <TypingEffect className="text-secondary intro-subtitle mt-0" tag="h2" typingSpeed={50}>
+                <TypingEffect className="text-secondary intro-subtitle mt-0" tag="h2" typingSpeed={10}>
                     Information Technology Consultant
                 </TypingEffect>
 

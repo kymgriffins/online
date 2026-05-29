@@ -6,7 +6,7 @@ import { getProjectImage } from '../utils/projectImage';
 import ReactGA from 'react-ga4';
 
 function ProjectCard(props) {
-    const { title, tags, description, repoLink, demoLink, tabs } = props.data;
+    const { title, tags, description, demoLink, tabs } = props.data;
 
     const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -52,13 +52,9 @@ function ProjectCard(props) {
                             <i className="bi bi-text-paragraph"></i> More info
                         </span>
 
-                        <a href={repoLink} target='_blank' rel="noreferrer" className='link text-large'>
-                            <i className='bi bi-github'></i> Repo
-                        </a>
-
-                        {props.data['demoLink'] ?
+                        {demoLink ?
                             <a href={demoLink} target='_blank' rel="noreferrer" className='link text-large'>
-                                <i className='bi bi-globe2'></i> Live demo
+                                <i className='bi bi-globe2'></i> Live site
                             </a>
                             : null}
                     </div>
@@ -71,7 +67,6 @@ function ProjectCard(props) {
                     title={title}
                     tags={tags}
                     description={description}
-                    repoLink={repoLink}
                     demoLink={demoLink}
                     tabs={tabs}
                     onClose={closeModal}
