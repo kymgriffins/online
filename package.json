@@ -38,7 +38,6 @@
       "last 1 safari version"
     ]
   },
-  "packageManager": "pnpm@11.1.2",
   "devDependencies": {
     "intersection-observer": "^0.12.2"
   }
