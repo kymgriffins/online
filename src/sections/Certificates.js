@@ -7,15 +7,15 @@ const certificates = [
   {
     id: 'kcse',
     label: 'KCSE Certificate',
-    file: '/KCSE.pdf',
-    downloadName: 'KCSE.pdf',
+    file: '/griffinskimutaiKcse.pdf',
+    downloadName: 'griffinskimutaiKcse.pdf',
     description: 'Kenya Certificate of Secondary Education',
   },
   {
     id: 'bachelors',
     label: 'Bachelor\'s Degree in Information Technology',
-    file: '/Bachelors_Degree_Information_technology.pdf',
-    downloadName: 'Bachelors_Degree_Information_technology.pdf',
+    file: '/griffinskimutaiDegree.pdf',
+    downloadName: 'griffinskimutaiDegree.pdf',
     description: 'Bachelors Degree in Information Technology',
   },
 ];

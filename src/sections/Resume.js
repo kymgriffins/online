@@ -21,7 +21,7 @@ function Resume() {
                 </p>
 
                 <a
-                    href='/resume.pdf'
+                    href='/griffinskimutaiResume.pdf'
                     download='Griffins_Kimutai_IT_Consultant.pdf'
                     className='link text-large resume-download-btn'
                     onClick={handleDownload}
@@ -43,7 +43,7 @@ function Resume() {
                 {expanded && (
                     <div className='resume-preview mt-3'>
                         <iframe
-                            src='/resume.pdf'
+                            src='/griffinskimutaiResume.pdf'
                             title='Resume PDF'
                             width='100%'
                             height='700px'
