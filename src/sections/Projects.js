@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 import TypingEffect from '../components/TypingEffect'
 import ProjectCard from '../components/ProjectCard'
@@ -6,11 +6,7 @@ import ProjectCard from '../components/ProjectCard'
 import jsonData from '../data/ProjectData.json';
 
 function Projects() {
-  const [items, setItems] = useState([]);
-
-  useEffect(() => {
-    setItems(jsonData);
-  }, []);
+  const items = jsonData;
 
   return (
     <div className='py-5' id={"Projects"}>

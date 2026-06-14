@@ -59,7 +59,8 @@ function Certificates() {
                 onClick={() => setExpanded(expanded === cert.id ? null : cert.id)}
                 role="button"
                 tabIndex={0}
-                onKeyDown={(e) => { if (e.key === 'Enter') setExpanded(expanded === cert.id ? null : cert.id); }}
+                aria-expanded={expanded === cert.id}
+                onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setExpanded(expanded === cert.id ? null : cert.id); } }}
               >
                 <i className={`bi ${expanded === cert.id ? 'bi-chevron-up' : 'bi-eye'}`}></i>
                 {expanded === cert.id ? ' Hide' : ' Preview'}

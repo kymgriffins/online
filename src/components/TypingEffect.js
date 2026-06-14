@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 const TypingEffect = ({ children, className, tag = 'div', typingSpeed = 8 }) => {
+  const prefersReducedMotion = typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const [isVisible, setIsVisible] = useState(false);
   const [typedText, setTypedText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -35,6 +36,10 @@ const TypingEffect = ({ children, className, tag = 'div', typingSpeed = 8 }) => 
   }, []);
 
   useEffect(() => {
+    if (prefersReducedMotion) {
+      setTypedText(children);
+      return;
+    }
     if (isVisible && currentIndex < children.length) {
       const interval = setInterval(() => {
         setTypedText(prevTypedText => prevTypedText + children[currentIndex]);
@@ -47,12 +52,12 @@ const TypingEffect = ({ children, className, tag = 'div', typingSpeed = 8 }) => 
 
       return () => clearInterval(interval);
     }
-  }, [isVisible, currentIndex, children, typingSpeed]);
+  }, [isVisible, currentIndex, children, typingSpeed, prefersReducedMotion]);
 
   const Tag = tag;
 
   return (
-    <Tag ref={containerRef} className={className}>
+    <Tag ref={containerRef} className={className} aria-live='polite'>
       {typedText}
     </Tag>
   );

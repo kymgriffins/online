@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 import OpenSourceCard from '../components/OpenSourceCard';
 import Section from '../components/Section';
@@ -7,12 +7,7 @@ import jsonData from '../data/OpenSourceData.json';
 
 function OpenSource() {
 
-    const [items, setItems] = useState([]);
-
-    useEffect(() => {
-        // Set the items state with the imported JSON data
-        setItems(jsonData);
-    }, []);
+    const items = jsonData;
 
 
     return (

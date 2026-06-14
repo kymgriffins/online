@@ -14,7 +14,7 @@ function SkillsSummary() {
 
     return (
         <div>
-            <span className='link cursor-pointer' onClick={toggleSkillSum} role="button" tabIndex={0} onKeyDown={(e) => { if (e.key === 'Enter') toggleSkillSum(); }}>
+            <span className='link cursor-pointer' onClick={toggleSkillSum} role="button" tabIndex={0} aria-expanded={isSkillSumOpen} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleSkillSum(); } }}>
                 {isSkillSumOpen ? (
                     <i className="bi bi-chevron-up"></i>
                 ) : (

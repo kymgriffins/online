@@ -34,7 +34,8 @@ function Resume() {
                     onClick={() => setExpanded(!expanded)}
                     role="button"
                     tabIndex={0}
-                    onKeyDown={(e) => { if (e.key === 'Enter') setExpanded(!expanded); }}
+                    aria-expanded={expanded}
+                    onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setExpanded(!expanded); } }}
                 >
                     <i className={`bi ${expanded ? 'bi-chevron-up' : 'bi-eye'}`}></i>
                     {expanded ? ' Hide PDF' : ' Preview PDF'}

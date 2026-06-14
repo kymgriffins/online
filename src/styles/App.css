@@ -36,15 +36,6 @@
   color: var(--secondary);
 }
 
-.bg-accent {
-  background-color: var(--accent);
-  color: var(--dark);
-}
-
-.text-secondary {
-  color: var(--secondary);
-}
-
 h1,
 h2,
 h3,
@@ -296,18 +287,10 @@ figure {
   transition: 0.15s ease-in-out;
 }
 
-figure {
-  margin: 0;
-}
-
 .card-row {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-}
-
-.cursor-pointer {
-  cursor: pointer;
 }
 
 .display-img {

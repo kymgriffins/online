@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect, useCallback } from 'react';
 import TypingEffect from '../components/TypingEffect';
 
 function PopupModal(props) {
@@ -36,25 +36,58 @@ function PopupModal(props) {
 
     const [activeTab, setActiveTab] = useState(getInitialActive());
     const [isClosing, setIsClosing] = useState(false);
+    const modalRef = useRef(null);
 
     const handleTabClick = (tab) => {
         setActiveTab(tab);
     };
 
-    const handleClose = React.useCallback(() => {
+    const handleClose = useCallback(() => {
         setIsClosing(true);
         setTimeout(() => {
             if (onClose) onClose();
         }, 200);
     }, [onClose]);
 
-    React.useEffect(() => {
+    const focusableSelector = 'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])';
+
+    useEffect(() => {
         const handleEsc = (event) => {
             if (event.key === 'Escape') handleClose();
         };
         window.addEventListener('keydown', handleEsc);
-        return () => window.removeEventListener('keydown', handleEsc);
+
+        const previouslyFocused = document.activeElement;
+        const timer = setTimeout(() => {
+            const first = modalRef.current?.querySelector(focusableSelector);
+            if (first) first.focus();
+        }, 50);
+
+        return () => {
+            window.removeEventListener('keydown', handleEsc);
+            clearTimeout(timer);
+            if (previouslyFocused && previouslyFocused.focus) previouslyFocused.focus();
+        };
     }, [handleClose]);
+
+    useEffect(() => {
+        const handleTabTrap = (e) => {
+            if (e.key !== 'Tab' || !modalRef.current) return;
+            const focusable = modalRef.current.querySelectorAll(focusableSelector);
+            if (focusable.length === 0) return;
+            const first = focusable[0];
+            const last = focusable[focusable.length - 1];
+            if (e.shiftKey && document.activeElement === first) {
+                e.preventDefault();
+                last.focus();
+            } else if (!e.shiftKey && document.activeElement === last) {
+                e.preventDefault();
+                first.focus();
+            }
+        };
+        window.addEventListener('keydown', handleTabTrap);
+        return () => window.removeEventListener('keydown', handleTabTrap);
+    }, []);
 
     // Close modal when clicking outside content
     const handleBackdropClick = (e) => {
@@ -62,7 +95,7 @@ function PopupModal(props) {
     };
 
     return (
-        <div className={`modal enhanced-modal${isClosing ? ' fadeOut' : ' fadeIn'}`} style={{ display: 'block' }} onClick={handleBackdropClick}>
+        <div className={`modal enhanced-modal${isClosing ? ' fadeOut' : ' fadeIn'}`} style={{ display: 'block' }} onClick={handleBackdropClick} ref={modalRef}>
             <div className='modal-content enhanced-modal-content'>
                 <button className='modal-close-btn' aria-label='Close' onClick={handleClose}>&times;</button>
                 <div className='row'>

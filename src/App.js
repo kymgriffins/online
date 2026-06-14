@@ -13,8 +13,10 @@ import ProjectConfig from './data/ProjectConfig.json';
 
 import ReactGA from 'react-ga4';
 
-const TRACKING_ID = "G-DQ8EZHH8ZY";
-ReactGA.initialize(TRACKING_ID);
+const TRACKING_ID = process.env.REACT_APP_GA_ID;
+if (TRACKING_ID) {
+  ReactGA.initialize(TRACKING_ID);
+}
 
 function App() {
 

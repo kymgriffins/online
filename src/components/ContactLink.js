@@ -12,7 +12,7 @@ function ContactLink(props) {
     };
 
     return (
-        <a href={props.link} onClick={recordGAEvent(props.text)} target='_blank' rel="noreferrer" className='link text-x-large'>
+        <a href={props.link} onClick={() => recordGAEvent(props.text)} target='_blank' rel="noreferrer" className='link text-x-large'>
             <i className={props.iconName}></i> {props.text}
         </a>
     );

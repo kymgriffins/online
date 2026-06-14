@@ -12,7 +12,7 @@ function ContactIcon(props) {
     };
 
     return (
-        <a href={props.url} onClick={recordGAEvent(props.type)} className='link text-x-large'>
+        <a href={props.url} onClick={() => recordGAEvent(props.type)} aria-label={props.type} className='link text-x-large'>
             {props.children}
         </a>
     );
