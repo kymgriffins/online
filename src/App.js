@@ -4,6 +4,7 @@ import './styles/bootstrap-grid.css';
 import Intro from './sections/Intro'
 import Projects from './sections/Projects'
 import Resume from './sections/Resume'
+import Certificates from './sections/Certificates'
 import Contact from './sections/Contact'
 
 import CopyrightLabel from './components/CopyrightLabel'
@@ -28,6 +29,8 @@ function App() {
         }
 
         <Resume />
+
+        <Certificates />
 
         <Contact />
 
