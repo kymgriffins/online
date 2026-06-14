@@ -572,3 +572,52 @@ figure {
     height: 450px;
   }
 }
+
+.certificates-section {
+  padding: 0.5rem 0;
+}
+
+.certificate-entry {
+  padding: 1rem;
+  background: var(--primary-dark-hover);
+  border-radius: 0.5rem;
+}
+
+.certificate-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.certificate-label {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--accent);
+}
+
+.certificate-desc {
+  font-size: 0.9rem;
+}
+
+.certificate-actions {
+  display: flex;
+  align-items: center;
+}
+
+.certificate-preview {
+  background: var(--primary-dark);
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.certificate-preview iframe {
+  background: #fff;
+}
+
+@media (max-width: 768px) {
+  .certificate-preview iframe {
+    height: 350px;
+  }
+}
